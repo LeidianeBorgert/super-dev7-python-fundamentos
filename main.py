@@ -7,7 +7,8 @@ from src import exercicios_variaveis
 from src import dicionarios
 from src.listas import exemplo_lista_basica
 from src.listas import exemplo_solicitar_dados_usuario,exemplo_solicitar_dados_usuario_otimizado
-
+from src.requisicoes_crud import crud
+from src.exercicios_requisicoes_crud import crud_eventos
 
 
 
@@ -19,9 +20,9 @@ def main():
    #dicionarios.exemplo_dicionario_aluno()
    #exemplo_lista_basica()
    #exemplo_solicitar_dados_usuario()
-   exemplo_solicitar_dados_usuario_otimizado()
-    
-
+   #exemplo_solicitar_dados_usuario_otimizado()
+  # crud()
+    crud_eventos()
     #print("Hello Word")
     #print("Batatinha com molho de calabresa")
     #variaveis.exemplo_strings() #executar a variavel
