@@ -17,7 +17,7 @@ def crud_eventos():
     opcao = ""
     while opcao != "Sair":
         opcao = questionary.select("Escolha no menu", choices=[
-            "Evento",  "Sair"]).ask()
+            "Evento", "Serviços", "Sair"]).ask()
         
         limpar_tela()
         if opcao == "Evento":
@@ -125,7 +125,6 @@ def editar_evento():
         print("Evento alterado com sucesso")
     else:
         print("Ocorreu uma falha ao alterar o evento\nErro:", response.text)
-
 
 
 

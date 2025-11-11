@@ -9,11 +9,14 @@ from src.listas import exemplo_lista_basica
 from src.listas import exemplo_solicitar_dados_usuario,exemplo_solicitar_dados_usuario_otimizado
 from src.requisicoes_crud import crud
 from src.exercicios_requisicoes_crud import crud_eventos
-
+from src.exercicio_pratico_json import resolucao
 
 
 
 def main():
+    #resolucao.resolver()
+    #resolucao.exercicio_01()
+    resolucao.exercicio_02()
     #exemplo_questionary.exemplos()
    # exercicios_variaveis.exercicios_dados_produtos()
    # dicionarios.exemplo_dicionario_basico()
@@ -22,7 +25,7 @@ def main():
    #exemplo_solicitar_dados_usuario()
    #exemplo_solicitar_dados_usuario_otimizado()
   # crud()
-    crud_eventos()
+    #crud_eventos()
     #print("Hello Word")
     #print("Batatinha com molho de calabresa")
     #variaveis.exemplo_strings() #executar a variavel
