@@ -91,7 +91,8 @@ def apresentar_tabela(dados: List[Dict[str, str]], titulo: str):
 #   Percorrer a lista de usuário, armazenando no arquivo 'enderecos.json' todos os endereços dos usuários
 # Ex.: ["Rua - Numero - Bairro - CEP - UF", "Rua - Numero - Bairro - CEP - UF"]
 # Exercício 04:
-#   Percorrer a lista de usuários agrupando os dados por estado, salvando o telefone e e-mail de cada usuário em uma lista por estado. Deve armazenar uma lista com os usuários conforme abaixo:
+#   Percorrer a lista de usuários agrupando os dados por estado, salvando o telefone e e-mail de cada usuário em uma lista por estado. 
+# Deve armazenar uma lista com os usuários conforme abaixo:
 #   Ex.: sc.json
 #       [{"email": "elisa.rocha@example.com", "telefone": "......"}]
 

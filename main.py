@@ -2,7 +2,7 @@ from src import variaveis #src nome da pasta e import o arquivo
 from src import funcoes
 from src import conversoes
 from src import input_usuario
-#from src.inputs import exemplo_questionary
+from src.inputs import exemplo_questionary
 from src import exercicios_variaveis
 from src import dicionarios
 from src.listas import exemplo_lista_basica
@@ -10,13 +10,19 @@ from src.listas import exemplo_solicitar_dados_usuario,exemplo_solicitar_dados_u
 from src.requisicoes_crud import crud
 from src.exercicios_requisicoes_crud import crud_eventos
 from src.exercicio_pratico_json import resolucao
+from src.orientacao_objetos import classes
 
 
 
 def main():
+
+    #classes.Jogo()
+    #lasses.exemplo_01()
+    #classes.exercicio_marca()
+    classes.exercicio_ticket()
     #resolucao.resolver()
     #resolucao.exercicio_01()
-    resolucao.exercicio_02()
+    #resolucao.exercicio_02()
     #exemplo_questionary.exemplos()
    # exercicios_variaveis.exercicios_dados_produtos()
    # dicionarios.exemplo_dicionario_basico()
