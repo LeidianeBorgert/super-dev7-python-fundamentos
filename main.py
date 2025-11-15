@@ -10,16 +10,14 @@ from src.listas import exemplo_solicitar_dados_usuario,exemplo_solicitar_dados_u
 from src.requisicoes_crud import crud
 from src.exercicios_requisicoes_crud import crud_eventos
 from src.exercicio_pratico_json import resolucao
-from src.orientacao_objetos import classes
-
+from src.orientacao_objetos import classes,classes_exercicio
+from src.orientacao_objetos.construtores import exemplo_construtor_cachorro, exercicio_construtor01
 
 
 def main():
-
-    #classes.Jogo()
+    exercicio_construtor01()
     #lasses.exemplo_01()
     #classes.exercicio_marca()
-    classes.exercicio_ticket()
     #resolucao.resolver()
     #resolucao.exercicio_01()
     #resolucao.exercicio_02()
@@ -48,6 +46,6 @@ def main():
     #funcoes.processar_pedido()
 
 
-if __name__=="__main__":
-    main() #executar uma função chamada de main(principal)
+    if __name__=="__main__":
+        main() #executar uma função chamada de main(principal)
 #Ctrl + J > py main.py  executa a função

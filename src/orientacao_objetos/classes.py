@@ -1,6 +1,7 @@
 from ast import List
 from datetime import date
 import os
+import platform
 import questionary
 from rich.table import Table
 from rich.console import Console
@@ -254,6 +255,14 @@ def limpar_tela():
 console = Console()
 desenvolvedora: List[Desenvolvedora] = []
 
+def menu_sistema():
+    menu_geral = ""
+    while menu_geral !="sair":
+        menu_geral = questionary.select("Escolha o sistema", choices = ["Desenvolvedora", "Sair"]).ask().lower()
+        limpar_tela()
+        if menu_geral =="desenvolvedora":
+            explemplo_crud_lista_objetos()
+
 
 def explemplo_crud_lista_objetos():
     menu = ""
@@ -268,7 +277,7 @@ def explemplo_crud_lista_objetos():
 
 def adicionar_desenvolvedora():
     #Solicitar os dados, instanciando um objeto de desenvolvedora e adicionar na lista
-    console.print(Aling.center("Cadastro de desenvolvedora"), style="blue")
+    console.print(Aling.center("Cadastro de desenvolvedora"), style="blue") # type: ignore
 
     desenvolvedora = Desenvolvedora()
     desenvolvedora.nome = questionary.text("Digite o nome da desenvolvedora").ask()
@@ -303,5 +312,5 @@ def listar_desenvolvedoras():
             desenvolvedora.proprietario,
             f"{desenvolvedora.sede.pais} - {desenvolvedora.sede.cidade}"
         )
-console.print(table)
-explemplo_crud_lista_objetos()
+console=Console()
+#console.print(table)
