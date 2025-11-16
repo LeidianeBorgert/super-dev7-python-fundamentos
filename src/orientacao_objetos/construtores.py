@@ -85,4 +85,4 @@ def exercicio_construtor01():
     console = Console()
     console.print(tabela)  
 
-exercicio_construtor01()
+#exercicio_construtor01()

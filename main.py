@@ -12,10 +12,14 @@ from src.exercicios_requisicoes_crud import crud_eventos
 from src.exercicio_pratico_json import resolucao
 from src.orientacao_objetos import classes,classes_exercicio
 from src.orientacao_objetos.construtores import exemplo_construtor_cachorro, exercicio_construtor01
-
+from src.orientacao_objetos.metodos_passagem_parametros import exemplo_passagem_parametros_nomeados,nomear_player,exercicio02,exercicio03
 
 def main():
-    exercicio_construtor01()
+    #exercicio_construtor01()
+    #exemplo_passagem_parametros_nomeados()
+    #nomear_player()
+    #exercicio02()
+    exercicio03()
     #lasses.exemplo_01()
     #classes.exercicio_marca()
     #resolucao.resolver()
